@@ -67,7 +67,7 @@ export function Gallery() {
                     <h2 className="font-headline text-4xl md:text-5xl font-bold text-primary">Featured Artwork</h2>
                     <p className="text-lg md:text-xl text-muted-foreground mt-4">Discover art from around the world</p>
                 </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
                     {artItems.map((art, index) => (
                         <div key={index} className="bg-card rounded-lg shadow-lg overflow-hidden group">
                             <div className="relative aspect-[3/4] overflow-hidden">
@@ -77,7 +77,7 @@ export function Gallery() {
                                     fill
                                     className="object-cover w-full h-full transition-transform duration-500 ease-in-out group-hover:scale-110"
                                     data-ai-hint={art.hint}
-                                    sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                                    sizes="(max-width: 768px) 50vw, 25vw"
                                 />
                             </div>
                             <div className="p-4">
