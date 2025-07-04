@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Instagram, Twitter, Youtube, Brush } from "lucide-react";
+import { Instagram, Twitter, Youtube } from "lucide-react";
 
 const footerLinks = {
   platform: [
@@ -33,7 +33,6 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div className="md:col-span-2 lg:col-span-1">
              <Link href="/" className="flex items-center gap-2 mb-4">
-              <Brush className="h-7 w-7 text-primary" />
               <span className="font-headline text-xl font-bold text-primary">
                 Canvas<span className="text-background">Converge</span>
               </span>
