@@ -20,7 +20,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 max-w-screen-2xl items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
-          <span className="font-headline text-xl font-bold text-primary">
+          <span className="font-body text-xl font-bold text-primary">
             Canvas<span className="text-secondary">Converge</span>
           </span>
         </Link>
